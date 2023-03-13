@@ -66,11 +66,11 @@ public class FirstHomeWork {
         System.out.println(lastVideoTime);
 
         // boolean is; has;
-        boolean alexIsWomen = false;
-        boolean alexIsMan = true;
-        boolean alexHasCar = true;
+        boolean isAlexWomen = false;
+        boolean isAlexMan = true;
+        boolean hasAlexCar = true;
 
-        System.out.printf("%s %s %s\n", alexIsWomen, alexIsMan, alexHasCar);
+        System.out.printf("%s %s %s\n", isAlexWomen, isAlexMan, hasAlexCar);
 
 
         System.out.printf("Alex full name is %s.\n", fullName);
