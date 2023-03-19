@@ -1,8 +1,5 @@
 package lv.acodemy.homework;
 
-import org.w3c.dom.ls.LSOutput;
-
-import javax.sound.midi.Soundbank;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.SplittableRandom;
@@ -29,8 +26,6 @@ public class SecondHomeWork {
         // Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.
 
         String[] arrayWord = {"Sometimes ", "it ", "pays ", "to ", "stay ", "in ", "bed ", "on ", "Monday, ", "rather ", "than ", "spending ", "the ", "rest ", "of ", "the ", "week ", "debugging ", "Monday’s ", "code."};
-        int[] emptyArray = new int[arrayWord.length];
-        System.out.println(Arrays.toString(arrayWord));
 
         for (String text :
                 arrayWord) {
@@ -49,7 +44,7 @@ public class SecondHomeWork {
             System.out.println("Your salary is low.");
         } else if (salary >= 5000 && salary < 10000) {
             System.out.println("Your salary is average.");
-        } else if (salary < 10000) {
+        } else if (salary > 10000) {
             System.out.println("Your salary is high.");
         }
 
