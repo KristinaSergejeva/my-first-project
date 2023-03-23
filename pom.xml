@@ -13,6 +13,29 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.alexitc</groupId>
+            <artifactId>scala-js-chrome_sjs1_3</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alexitc</groupId>
+            <artifactId>scala-js-chrome_sjs1_2.12</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alexitc</groupId>
+            <artifactId>scala-js-chrome_sjs1_2.13</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <dependencies>
         <dependency>
