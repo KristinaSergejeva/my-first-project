@@ -12,21 +12,11 @@ public class MainClass {
 
         bugsBunny.eatCandies(7);
 
-        bugsBunny.fill();
+        bugsBunny.fillOneCandy();
         System.out.println(bugsBunny.getCandyCount());
 
         bugsBunny.fillDispenser(3);
 
-        bugsBunny.fillDispenserFully();
-
-
-
-
-
-
-
+        bugsBunny.loadOfMissingCandies();
     }
-
-
-
 }
